@@ -1,16 +1,18 @@
 "
 " Theme options
 set t_Co=256
-colorscheme Monokai
+colorscheme fahrenheit
 set background=dark    " Setting dark mode
 """ Hilight search and set numbers
 set hlsearch
 highlight Search guibg=#af005f ctermbg=125
+highlight ColorColumn guibg=#2d2d2d ctermbg=246
+
 """" clear highlight with <esc> after a search
 nnoremap <C-h> :noh<return>
 set number
 
-set cc=80
+set cc=120
 
 " Airline configuration
 let g:airline#extensions#tabline#enabled = 1
